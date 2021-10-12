@@ -1,4 +1,5 @@
 import React from 'react';
+import CaloriesForm from './calculator/form.js'
 
 function App() {
   return (
@@ -6,6 +7,9 @@ function App() {
       <header>
         <h1>Hello</h1>
       </header>
+      <main>
+        <CaloriesForm />
+      </main>
     </>
   )
 }
