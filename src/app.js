@@ -1,12 +1,12 @@
 import React from 'react';
-import ToDo from './components/calculator/calculator.js';
+import CaloriesCalculator from './components/calculator/calculator.js';
 import SettingsProvider from './context/context.js'
 
 
 function App () {
   return (
     <>
-      <ToDo />
+      <CaloriesCalculator />
     </>  
   )
 }

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import TodoForm from './form.js';
-import TodoList from './results.js';
+import UserForm from './form.js';
+import Result from './results.js';
 
 
 // import './todo2.scss';
@@ -8,7 +8,7 @@ import TodoList from './results.js';
 
 
 
-function ToDo(props) {
+function CaloriesCalculator(props) {
   
 
 
@@ -61,11 +61,11 @@ function ToDo(props) {
       <section className="main">
 
       <div>
-        <TodoForm handleSubmit={_addItem}/>
+        <UserForm handleSubmit={_addItem}/>
       </div>
 
       <div>
-        <TodoList list={list} />
+        <Result list={list} />
       </div>
     </section>
 
@@ -76,4 +76,4 @@ function ToDo(props) {
   )
 }
 
-export default ToDo;
+export default CaloriesCalculator;

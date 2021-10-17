@@ -7,7 +7,7 @@ import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import useForm from '../../hooks/form';
 
-function TodoForm(props) {
+function UserForm(props) {
 
   const [item, setItem] = useState({})
 
@@ -69,7 +69,7 @@ function TodoForm(props) {
   )
 }
 
-export default TodoForm;
+export default UserForm;
 
 // import React, { useEffect, useState } from 'react'
 

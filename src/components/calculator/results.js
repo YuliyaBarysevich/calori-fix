@@ -8,7 +8,7 @@ import Toast from 'react-bootstrap/Toast';
 import Badge from 'react-bootstrap/Badge';
 
 
-function TodoList(props) {
+function Result(props) {
 
   // const height_final = props.list.map((item) => {
   //   console.log(typeof item.height_ft)
@@ -59,7 +59,7 @@ function TodoList(props) {
     )
 }
 
-export default TodoList;
+export default Result;
 
 // import React, { useState, useContext, useEffect } from 'react';
 // import { SettingContext } from '../../context/context';
